@@ -21,9 +21,12 @@ export default function Home({ posts }) {
         description={siteMetadata.description}
         url={siteMetadata.siteUrl}
       />
+      <div>
+        <img src="/static/images/banner.png" alt="Logo" />
+      </div>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14">
             The hippest way to learn Chinese.
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
